@@ -3,6 +3,7 @@
 import IconAppLogo from "@/components/icons/IconAppLogo.vue";
 import IconGithubLogo from "@/components/icons/IconGithubLogo.vue";
 import {goToHref, HrefTypeEnum} from "@/utils/common";
+import ClassMenu from "@/components/ClassMenu.vue";
 </script>
 
 <template>
@@ -22,7 +23,7 @@ import {goToHref, HrefTypeEnum} from "@/utils/common";
     </div>
     <div class="box-body">
       <div class="menu-box">
-      
+        <ClassMenu/>
       </div>
       <div class="main-content">
       
@@ -43,7 +44,7 @@ import {goToHref, HrefTypeEnum} from "@/utils/common";
     height: 7rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.15rem solid #ccc;
+    border-bottom: 0.1rem solid #ccc;
     
     .head-logo {
       display: flex;
@@ -75,7 +76,18 @@ import {goToHref, HrefTypeEnum} from "@/utils/common";
   }
   
   .box-body {
-  
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+    .menu-box {
+      width: 13vw;
+      overflow: auto;
+    }
+    
+    .main-content {
+      width: 87vw;
+    }
   }
   
   
