@@ -1,37 +1,19 @@
-# front-example
+前端案例持续更新中。。。@sxgan
 
-#### 介绍
-用于整合前端的综合案例项目
+---
 
-#### 软件架构
-软件架构说明
+> 🏆 我还是相信，星星会说话，石头会开花，穿过夏天的木栅栏和冬天的风雪之后，你终会抵达！ ——饶雪漫
 
+--- 
 
-#### 安装教程
+# 前言
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+本仓库主要记录前端相关的案例，包括但不限于HTML、CSS、JavaScript、Vue、Node.js、Vite、Webpack、TypeScript、Electron等。
 
-#### 使用说明
+本项目资源文档：[资源文档](a-doc)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+github仓库地址: [front-example](https://github.com/sxgan-code/front-example)
 
-#### 参与贡献
+# 目录
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 基础
