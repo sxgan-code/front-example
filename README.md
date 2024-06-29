@@ -16,4 +16,6 @@ github仓库地址: [front-example](https://github.com/sxgan-code/front-example)
 
 # 目录
 
-## 基础
+## 基础搭建
+
+- [初始化一个简单的Vite项目](vite-example%2Finit.md)
