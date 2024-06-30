@@ -10,6 +10,14 @@ const mainRouters: RouteRecordRaw[] = [
         path: '/main',
         name: 'main',
         component: () => import("@/views/MainPage.vue"),
+        children: [
+            {
+                path: 'overview',
+                name: 'overview',
+                component: () => import("@/components/OverView.vue"),
+            }
+        ]
+
     },
 ]
 export default mainRouters

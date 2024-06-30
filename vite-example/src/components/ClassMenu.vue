@@ -9,13 +9,20 @@ const data = ref([
     name: 'Overview 组件总览',
     children: [
       {itemName: 'Overview 组件总览', address: '/main/overview'},
-      {itemName: 'Overview 组件总览', address: '/main/overview'},
-      {itemName: 'Overview 组件总览', address: '/main/overview'},
-      {itemName: 'Overview 组件总览', address: '/main/overview'},
     ]
   },
   {
-    name: 'Overview 组件总览',
+    name: 'Basic 基础组件',
+    children: [
+      {itemName: 'Button 按钮', address: ''},
+      {itemName: 'Border 边框', address: ''},
+      {itemName: 'Color 色彩', address: ''},
+      {itemName: 'Container 布局容器', address: ''},
+      {itemName: 'Icon 图标', address: ''},
+    ]
+  },
+  {
+    name: 'Form 表单组件',
     children: [
       {itemName: 'Overview 组件总览', address: '/main/overview'},
       {itemName: 'Overview 组件总览', address: '/main/overview'},
@@ -24,7 +31,7 @@ const data = ref([
     ]
   },
   {
-    name: 'Overview 组件总览',
+    name: 'Data 数据展示',
     children: [
       {itemName: 'Overview 组件总览', address: '/main/overview'},
       {itemName: 'Overview 组件总览', address: '/main/overview'},
@@ -33,7 +40,7 @@ const data = ref([
     ]
   },
   {
-    name: 'Overview 组件总览',
+    name: 'Navigation 导航',
     children: [
       {itemName: 'Overview 组件总览', address: '/main/overview'},
       {itemName: 'Overview 组件总览', address: '/main/overview'},
@@ -42,7 +49,7 @@ const data = ref([
     ]
   },
   {
-    name: 'Overview 组件总览',
+    name: 'Feedback 反馈组件',
     children: [
       {itemName: 'Overview 组件总览', address: '/main/overview'},
       {itemName: 'Overview 组件总览', address: '/main/overview'},
@@ -51,7 +58,7 @@ const data = ref([
     ]
   },
   {
-    name: 'Overview 组件总览',
+    name: 'Others 其他',
     children: [
       {itemName: 'Overview 组件总览', address: '/main/overview'},
       {itemName: 'Overview 组件总览', address: '/main/overview'},
@@ -89,7 +96,7 @@ function clickMenu(className: string, address: string) {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 1rem 4rem;
+  margin: 2rem 4rem 0;
   
   .class-title {
     font-family: "HarmonyOS Sans", sans-serif;
@@ -102,9 +109,9 @@ function clickMenu(className: string, address: string) {
       margin: 1rem 2rem;
       font-size: 1.4rem;
       color: #666;
-      width: 20rem;
+      width: 24rem;
       height: 4rem;
-      padding-left: 1rem;
+      padding-left: 2rem;
       line-height: 4rem;
     }
     

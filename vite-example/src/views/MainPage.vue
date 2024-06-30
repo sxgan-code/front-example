@@ -26,7 +26,7 @@ import ClassMenu from "@/components/ClassMenu.vue";
         <ClassMenu/>
       </div>
       <div class="main-content">
-      
+        <router-view/>
       </div>
     </div>
   
